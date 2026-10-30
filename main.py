@@ -196,7 +196,7 @@ def delete_selected_duplicates():
             if file_path.exists() and file_path.is_file():
                 file_path.unlink()
                 deleted_count += 1
-
+# new line
         except OSError as e:
             messagebox.showerror("Delete Error", str(e))
 
