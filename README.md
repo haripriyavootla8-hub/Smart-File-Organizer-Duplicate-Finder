@@ -5,10 +5,12 @@ Smart File Organizer & Duplicate Finder is a Python-based desktop application th
 
 ## Features
 - Select a folder.
-- Scan files and count file types.
-- Organize files into Images, Documents, Videos, and Others.
-- Detect duplicate files using SHA-256 hashing.
-- Delete selected duplicate files while keeping the original.
+- Scan files and see counts and sizes by category and extension.
+- Organize files into Images, Documents, Spreadsheets, Presentations, Videos, Audio, Archives, Code, and Others.
+- Name clashes are handled automatically (e.g. `photo (1).jpg`), and the last organize can be undone.
+- Detect duplicate files using SHA-256 hashing (only same-size files are hashed, so it's fast).
+- Delete selected duplicate files while keeping the original, with reclaimable space shown.
+- Long tasks run in the background with a progress bar, so the window never freezes.
 
 ## Technologies Used
 - Python
